@@ -1,9 +1,13 @@
 {
   "name": "node-hello",
+  "author": "Avik",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Basic Node.js Hello World",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "date-and-time": "^2.0.1"
   }
 }
